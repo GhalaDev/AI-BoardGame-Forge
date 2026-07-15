@@ -4,6 +4,12 @@
 
 ![Preview](assets/preview.png)
 
+## Live Demo
+
+Try the application here:
+
+[Launch AI BoardGame Forge](https://huggingface.co/spaces/GhalaDev/AI_BoardGames_Forge)
+
 
 AI BoardGame Forge is a simple AI-powered web application that creates complete mini card games from any theme entered by the user.
 
