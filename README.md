@@ -69,7 +69,7 @@ AI-BoardGame-Forge/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/AI-BoardGame-Forge.git
+git clone https://github.com/GhalaDev/AI-BoardGame-Forge.git
 cd AI-BoardGame-Forge
 ```
 
@@ -79,7 +79,7 @@ Install the required packages:
 pip install -r requirements.txt
 ```
 
-Or install manually:
+Or install them manually:
 
 ```bash
 pip install gradio pillow requests
@@ -91,7 +91,7 @@ pip install gradio pillow requests
 
 Open the notebook in Google Colab or Jupyter Notebook and run all cells.
 
-The Gradio application will launch locally and provide a shareable interface for generating AI-powered card games.
+The Gradio application will launch and provide an interactive interface for generating AI-powered board games.
 
 ---
 
