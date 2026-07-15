@@ -1,5 +1,10 @@
 # AI BoardGame Forge
 
+## Preview
+
+![Preview](assets/preview.png)
+
+
 AI BoardGame Forge is a simple AI-powered web application that creates complete mini card games from any theme entered by the user.
 
 The application automatically generates:
