@@ -11,7 +11,7 @@ Try the application here:
 [Launch AI BoardGame Forge](https://huggingface.co/spaces/GhalaDev/AI_BoardGames_Forge)
 
 
-AI BoardGame Forge is a simple AI-powered web application that creates complete mini card games from any theme entered by the user.
+AI BoardGame Forge is an AI-powered web application that uses a Large Language Model (LLM) to generate complete board game concepts from any user-provided theme. It creates game rules, unique cards, and AI-generated artwork through an interactive Gradio interface.
 
 The application automatically generates:
 
@@ -28,13 +28,15 @@ The project is designed as a beginner-friendly AI application and was developed 
 
 ## Features
 
-- Generate a complete card game from any custom theme
-- Automatically create unique card names, types, and abilities
-- Generate AI artwork without requiring an API key
-- Design trading-card style images using Pillow
+- Generate complete board games using an LLM
+- Create game titles, descriptions, and rules
+- Generate structured game data in JSON format
+- Create unique game cards with names, types, and abilities
+- Generate AI artwork for each card
+- Design trading-card layouts using Pillow
 - Interactive Gradio web interface
 - Easy to run in Google Colab
-
+- 
 ---
 
 ## Technologies Used
@@ -56,14 +58,11 @@ The project is designed as a beginner-friendly AI application and was developed 
 The application follows a simple pipeline:
 
 1. The user enters a custom game theme.
-2. The procedural text generator creates:
-   - Game title
-   - Description
-   - Rules
-   - Four unique cards
-3. Pollinations AI generates artwork for each card.
-4. Pillow combines the artwork with a custom trading-card layout.
-5. Gradio displays the generated game in an interactive web interface.
+2. The Qwen language model generates the game in structured JSON format.
+3. The application extracts the game title, description, rules, and cards.
+4. Pollinations AI generates artwork for each card.
+5. Pillow creates styled trading-card layouts.
+6. Gradio displays the generated game and card gallery.
 
 ---
 
