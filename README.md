@@ -2,7 +2,7 @@
 
 ## Preview
 
-![Preview](assets/preview.png)
+![Preview](assets/preview1.png)
 
 ## Live Demo
 
