@@ -36,7 +36,7 @@ The project is designed as a beginner-friendly AI application and was developed 
 - Design trading-card layouts using Pillow
 - Interactive Gradio web interface
 - Easy to run in Google Colab
-- 
+
 ---
 
 ## Technologies Used
@@ -71,7 +71,7 @@ The application follows a simple pipeline:
 ```
 AI-BoardGame-Forge/
 │
-├── AI_BoardGame_Forge_Gradio.ipynb
+├── AI BoardGame Forge LLM.ipynb
 ├── README.md
 └── requirements.txt
 ```
