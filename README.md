@@ -41,7 +41,11 @@ The project is designed as a beginner-friendly AI application and was developed 
 
 - Python
 - Gradio
+- Hugging Face Transformers
+- Qwen2.5-0.5B-Instruct
+- PyTorch
 - Pillow (PIL)
+- Requests
 - Pollinations AI
 - Google Colab
 
